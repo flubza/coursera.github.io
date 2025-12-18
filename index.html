@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sam Johnson's portfolio showcasing projects, skills, and contact information.">
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+    <section>
+        <h1>About Me</h1>
+        <h2>Sam Johnson</h2>
+        <p> Placeholder</p>
+    </section>
+
+    <section>
+        <h1>Projects</h1>
+        <article>
+            <div class="project-card">
+                <h2>Project 1</h2>
+                <p>Placeholder</p>
+                <figure>
+                    <img src="project1.png" alt="Screenshot of Project 1">
+                    <figcaption>Project 1 Screenshot</figcaption>
+                </figure>
+            </div>
+            <div class="project-card">
+                <h2>Project 2</h2>
+                <p>Placeholder</p>
+                <figure>
+                    <img src="project2.png" alt="Screenshot of Project 2">
+                    <figcaption>Project 2 Screenshot</figcaption>
+                </figure>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section>
+        <h1>Contact</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
